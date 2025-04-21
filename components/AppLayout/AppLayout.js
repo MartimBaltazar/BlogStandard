@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import { faCoins } from "@fortawesome/free-solid-svg-icons";
-import {Logo} from "../Logo";
+import { Logo } from "../Logo";
 
 export const AppLayout = ({ children }) => {
   const { user } = useUser();
